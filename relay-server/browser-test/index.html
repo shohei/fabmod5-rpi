@@ -9,9 +9,9 @@
             ws.onopen = function() {
                 console.log("websocket opened");
             };
-            // ws.onmessage = function (evt) {
-            //    console.log("data received: "+evt.data);
-            // };
+            ws.onmessage = function (evt) {
+               console.log("data received: "+evt.data);
+            };
             var btn = document.getElementById("sendrml-ws");
             btn.addEventListener('click',function(e){
                 console.log("send rml");
