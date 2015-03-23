@@ -2,7 +2,7 @@
 FabModules on HTML5をRaspberry piと連携させるためのソフトウェアです。
 
 ## 機器構成
-[](fabmod5-structure.png)
+![structure](fabmod5-structure.png)
 
 ## 依存環境
 Raspberry pi: Raspbian wheezyで確認済みです。
